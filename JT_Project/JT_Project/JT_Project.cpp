@@ -58,6 +58,7 @@ void reveal(int r, int c) {
         }
     }
 }
+
 void mark(int r, int c) {
 	if (r < 0 || r >= SIZE || c < 0 || c >= SIZE) return;
 	if (board[r][c].revealed) return; // Can't mark a revealed cell
@@ -103,6 +104,8 @@ int main() {
         int row, col;
         cout << "Enter row and column to reveal: ";
             cin >> row >> col;
+
+        // Where is the Fail Function?
 		if (cin.fail() || row < 0 || row >= SIZE || col < 0 || col >= SIZE) {
 			cin.clear(); // clear the error flag
 			cin.ignore(numeric_limits<streamsize>::max(), '\n'); // discard invalid input
@@ -110,8 +113,9 @@ int main() {
 			continue;
 		}
 
+        // This doesn't work
         if (board[row][col].isMine) {
-            cout << "BOOM! You hit a mine.\n";
+            std::cout << "BOOM! You hit a mine.\n";
             printBoard(true);
             break;
         }

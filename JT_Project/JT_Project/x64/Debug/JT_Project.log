@@ -1,3 +1,3 @@
 ﻿  JT_Project.cpp
-C:\Users\kdsgaho\Downloads\JT_Project\JT_Project\JT_Project\JT_Project\JT_Project.cpp(92,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  JT_Project.vcxproj -> C:\Users\kdsgaho\Downloads\JT_Project\JT_Project\JT_Project\x64\Debug\JT_Project.exe
+C:\Users\arncsam\Desktop\C++ Repository\Proper JT Project\JT_Project\JT_Project\JT_Project\JT_Project.cpp(98,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  JT_Project.vcxproj -> C:\Users\arncsam\Desktop\C++ Repository\Proper JT Project\JT_Project\JT_Project\x64\Debug\JT_Project.exe
